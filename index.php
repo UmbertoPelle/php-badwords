@@ -3,8 +3,7 @@
   $exchange = '***';
   $_GET['val'];
   $repTxt = str_replace($_GET['val'],$exchange, $txt);
-
 ?>
 
-<h1><?php echo $txt ?></h1>
+<h1><?php var_dump($txt) ?></h1>
 <h3><?php echo $repTxt ?></h3>
